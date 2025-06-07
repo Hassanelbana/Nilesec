@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NileSec | Cybersecurity Company</title>
+  <style>
+    :root {
+      --primary: #0f172a;
+      --accent: #00bcd4;
+      --text: #f8fafc;
+      --gray: #94a3b8;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--primary);
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #1e293b;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: var(--accent);
+    }
+
+    header p {
+      color: var(--gray);
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+    }
+
+    main {
+      flex: 1;
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    h2 {
+      border-left: 4px solid var(--accent);
+      padding-left: 1rem;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li::before {
+      content: "✔️";
+      color: var(--accent);
+      margin-right: 0.5rem;
+    }
+
+    footer {
+      background-color: #1e293b;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: var(--gray);
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>NileSec</h1>
+    <p>Cybersecurity Experts in Red Teaming, Phishing & Social Engineering</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Us</h2>
+      <p>
+        NileSec is a cybersecurity company based in Sudan, specialized in delivering Red Team operations, advanced phishing assessments,
+        vulnerability evaluations, and social engineering engagements. We help organizations across Sudan and the MENA region protect their digital assets
+        and detect real-world attack scenarios, including internal threats targeting <strong>Active Directory</strong> environments.
+      </p>
+    </section>
+
+    <section>
+      <h2>Our Services</h2>
+      <ul>
+        <li>Red Team Operations</li>
+        <li>Phishing Campaigns & Awareness</li>
+        <li>Vulnerability Assessment</li>
+        <li>Active Directory Security Testing</li>
+        <li>Social Engineering Engagements</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>📧 Email: <a href="mailto:nilesec.sudan@outlook.com">nilesec.sudan@outlook.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 All rights reserved for NileSec Company.
+  </footer>
+</body>
+</html>
